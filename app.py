@@ -928,9 +928,9 @@ with st.sidebar:
         # Créer deux colonnes pour les logos
     col_logo1, col_logo2 = st.columns(2)
     with col_logo1:
-        st.image("logoIne.jpeg", width=90)   # Logo de l'INE
+        st.image("logoIne.jpeg", width=100)   # Logo de l'INE
     with col_logo2:
-        st.image("logoUAC.jpeg", width=90)   # Logo de l'UAC
+        st.image("logoUAC.jpeg", width=100)   # Logo de l'UAC
     
     st.markdown("### 📋 Navigation")
     
