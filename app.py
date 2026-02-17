@@ -925,7 +925,12 @@ st.markdown("""
 
 # Sidebar Premium
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/320px-Flag_of_Benin.svg.png", width=100)
+        # Créer deux colonnes pour les logos
+    col_logo1, col_logo2 = st.columns(2)
+    with col_logo1:
+        st.image("logoIne.jpeg", use_container_width=True)   # Logo de l'INE
+    with col_logo2:
+        st.image("logoUAC.jpeg", use_container_width=True)   # Logo de l'UAC
     
     st.markdown("### 📋 Navigation")
     
