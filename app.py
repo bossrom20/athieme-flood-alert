@@ -944,7 +944,7 @@ with st.sidebar:
     
     st.markdown("### 👨‍🏫 Encadrement")
     st.markdown("**Prof.** VISSIN Expédit")
-    st.markdown("**Dr.** Peter OUASSA")
+    st.markdown("**Dr.** Pierre OUASSA")
     
     st.markdown("---")
     
@@ -1627,13 +1627,13 @@ else:
             <h3 style="margin-top: 0;">👥 Équipe de Développement</h3>
             <p><strong>Réalisation :</strong></p>
             <ul>
-                <li>Étudiant-chercheur en Gestion des Ressources en Eau</li>
+                <li>Étudiant-chercheur en Gestion des crises et risques liés à l'eau et au Climat</li>
                 <li>Institut National de l'Eau (INE), Bénin</li>
             </ul>
             <p><strong>Encadrement académique :</strong></p>
             <ul>
                 <li>Professeur VISSIN Expédit (Directeur)</li>
-                <li>Docteur Peter OUASSA (Co-directeur)</li>
+                <li>Docteur Pierre OUASSA (Co-directeur)</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -1644,7 +1644,7 @@ else:
             <ul>
                 <li><strong>Direction Générale de l'Eau (DGEau)</strong><br>
                     <small>Fourniture des données hydrométriques</small></li>
-                <li><strong>Agence Nationale de Protection Civile (ANPC)</strong><br>
+                <li><strong>Agence Beninoise pour la Protection Civile (ABPC)</strong><br>
                     <small>Expertise en gestion des risques</small></li>
                 <li><strong>Météo-Bénin</strong><br>
                     <small>Données pluviométriques et prévisions</small></li>
@@ -1655,7 +1655,7 @@ else:
         st.markdown("""
         <div class="glass-card" style="margin-top: 1.5rem;">
             <h3 style="margin-top: 0;">📚 Référence Académique</h3>
-            <p>Mémoire de licence en Gestion des Ressources en Eau<br>
+            <p>Mémoire de licence en Gestion des crises et risques liés à l'eau et au Climat <br>
             Institut National de l'Eau (INE)<br>
             République du Bénin, 2025</p>
         </div>
